@@ -1,0 +1,29 @@
+# USAGE
+
+python3 deep_learning_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel --image images/example_01.jpg 
+	
+python3 deep_learning_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel --image images/example_02.jpg 
+	
+python3 deep_learning_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel --image images/example_03.jpg
+
+python3 real_time_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel
+
+python3 real_time_object_distance.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+python3 real_time_object_detection2.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+python3 real_time_object_detection2.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/
+https://www.pyimagesearch.com/2017/10/16/raspberry-pi-deep-learning-object-detection-with-opencv/
+https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API
+
+
