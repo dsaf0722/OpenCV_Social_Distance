@@ -33,19 +33,7 @@ def video_feed3():
     """Video streaming route. Put this in the src attribute of an img tag."""
     return Response(Chu2(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
-
-# @app.route('/video_feed4',endpoint = 'video_feed4')
-# def video_feed4():
-#     """Video streaming route. Put this in the src attribute of an img tag."""
-#     return Response(Face(),
-#                     mimetype='multipart/x-mixed-replace; boundary=frame')
-
-# @app.route('/video_feed5',endpoint = 'video_feed5')
-# def video_feed5():
-#     """Video streaming route. Put this in the src attribute of an img tag."""
-#     return Response(Style_transfer(),
-#                     mimetype='multipart/x-mixed-replace; boundary=frame')
-
+                    
 if __name__ == '__main__':
     app.run(host= '0.0.0.0',debug=False)    
     
